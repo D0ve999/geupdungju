@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>급등주</title>
+  <link rel="manifest" href="/manifest.json">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4faff;
+      color: #222;
+      margin: 0;
+      padding: 1rem;
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #0078ff;
+      margin-bottom: 1rem;
+    }
+    .stock-list {
+      border-top: 2px solid #0078ff;
+    }
+    .stock {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem;
+      border-bottom: 1px solid #d0e6ff;
+      background: #fff;
+      margin-bottom: 0.5rem;
+      border-radius: 10px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .stock-name {
+      font-weight: bold;
+      color: #004a99;
+    }
+    .stock-info {
+      text-align: right;
+    }
+    .highlight {
+      color: #d00000;
+    }
+  </style>
+</head>
+<body>
+  <div class="title">🔥 급등 Top10 종목</div>
+  <div class="stock-list">
+    <div class="stock">
+      <div class="stock-name">1. SDST</div>
+      <div class="stock-info">
+        ₩10,000<br>
+        <span class="highlight">▲25%</span> | ⭕ | ₩9,000~12,000
+      </div>
+    </div>
+    <div class="stock">
+      <div class="stock-name">2. SNTI</div>
+      <div class="stock-info">
+        ₩2,000<br>
+        <span class="highlight">▲18%</span> | ❌ | ₩1,900~3,000
+      </div>
+    </div>
+    <div class="stock">
+      <div class="stock-name">3. CGTX</div>
+      <div class="stock-info">
+        ₩1,100<br>
+        <span class="highlight">▲15%</span> | ⭕ | ₩1,000~1,500
+      </div>
+    </div>
+  </div>
+</body>
+</html>
